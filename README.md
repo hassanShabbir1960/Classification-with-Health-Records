@@ -24,3 +24,14 @@ This dataset includes information about over 100,000 medical appointments of dif
 
 
 
+
+<h3>Part II: Classification Methods </h3>
+<ul>  Here are the steps involved in this part </ul>  
+
+<li> Using sklearn fit a DecisionTree, a RandomForest, a linear SVM and an SVM with a radial basis kernel to the transformed data. For now, use default parameters for each method. </li>
+
+<li>Use 10 fold cross validation to estimate performance of each of the above methods using both accuracy and AUC as metrics. </li>
+
+<li> Based on the above choose two of the ML methods and fit a model using 5 fold cross validation for model selection and 10 fold cross validation for model assessment. </li>
+
+<li> Implement gradient descent for a linear svm and test it on the training set. </li>
